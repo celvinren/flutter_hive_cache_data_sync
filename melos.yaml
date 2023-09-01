@@ -18,7 +18,7 @@ scripts:
         flutter pub run build_runner build --delete-conflicting-outputs
     description: Run all build runner to generate code.
     packageFilters:
-      dependsOn: freezed_annotation
+      dependsOn: build_runner
 
   build_runner:watch:
     run: |
@@ -26,7 +26,7 @@ scripts:
         flutter pub run build_runner watch --delete-conflicting-outputs
     description: Run all build runner to generate code.
     packageFilters:
-      dependsOn: freezed_annotation
+      dependsOn: build_runner
 
   add:package:
     run: |
